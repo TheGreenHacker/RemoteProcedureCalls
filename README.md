@@ -42,7 +42,3 @@ main - No explicity delegation function, but all communication with client and b
 <RETURN_TYPE> TASK (ARGS) - Implements functionality of the task
 <RETURN_TYPE> <TASK>_stub_unmarshal(ser_buff_t *recv_b) - Invoke TASK (ARGS) from deserialized arguments
 void <TASK>_stub_marshal (RETURN_TYPE, er_buff_t *recv_b) - Serialize results accordingly for RETURN_TYPE
-
-
-## APIs Used
-This project follows Udemy course "Build Remote Procedure Calls (RPC) - from scratch in C". I have borrowed the serialization/deserialization API's (in serialize.h, serialize.c, and sentinel.h) from the instructor Abhishek Sagar. 
